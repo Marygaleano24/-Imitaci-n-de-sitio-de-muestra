@@ -64,7 +64,7 @@ p1 {
 }
 
 .sec_inner {
-    background-image: url('../images/sample_menu_bg.jpg');
+    background-image: url('./images/sample_menu_bg.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -73,7 +73,7 @@ p1 {
 
 .key {
     height: 500px;
-    background: center / cover no-repeat url(../images/sample_key.jpg);
+    background: center / cover no-repeat url(./images/sample_key.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -165,7 +165,7 @@ p1 {
 }
 
 .menu_section {
-    background: url(../images/sample_menu_bg.jpg) no-repeat bottom;
+    background: url(./images/sample_menu_bg.jpg) no-repeat bottom;
     background-size: 100%;
     background-attachment: fixed;
 }
